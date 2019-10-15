@@ -20,7 +20,7 @@ It is assumed that you have already installed and are running a Windows 10 pro m
 
 Here is the main options menu when you load into HyperV server, this is used for quick configuration of the server.
 
-[Default SConfig](resources/images/default_sconfig.png)
+![Default SConfig](resources/images/default_sconfig.png)
 
 ## Configuration Steps
 
@@ -29,15 +29,15 @@ Here is the main options menu when you load into HyperV server, this is used for
 To begin, we will set the server to a static IP so we do not have to access the server to find it's IP each time we want to connect.
 
 1. In the SConfig window press 8 and enter to open the network settings for the server
-[Network settings selection in SConfig](resources/images/4_network.png)
+![Network settings selection in SConfig](resources/images/4_network.png)
 
 2. You are presented with a list of network adapters including index numbers. Enter the index number of the correct network adapter that is connected to the same network as your remote management machine.
 
-[Network settings adapter selection in SConfig](resources/images/4_network_adapter.png)
+![Network settings adapter selection in SConfig](resources/images/4_network_adapter.png)
 
 3. Now you are presented with a menu for managing the selected network adapter. Mainly we will set the IP address and DNS servers of the adapter (Options 1 and 2). First, select option 1 to set the nework adapter address.
 
-[Network settings set network adapter address in SConfig](resources/images/4_network_address.png)
+![Network settings set network adapter address in SConfig](resources/images/4_network_address.png)
 
 4. You are asked to select either DHCP or Static IP, Enter 'S' to choose a static IP
 
@@ -45,19 +45,19 @@ To begin, we will set the server to a static IP so we do not have to access the 
 
 5. Now you may enter the desired IP for the server and configure the other mandatory information. The default gateway address is the last configuration for this step.
 
-[Network settings configure adapter address in SConfig](resources/images/4_network_address_config.png)
+![Network settings configure adapter address in SConfig](resources/images/4_network_address_config.png)
 
 6. After the IP address is changed you should see the menu presented in step 2. To configure the DNS servers of this adapter enter 2 to set the DNS servers.
 
-[Network settings configure DNS in Sconfig](resources/images/4_network_dns.png)
+![Network settings configure DNS in Sconfig](resources/images/4_network_dns.png)
 
 7. Now you will be asked to enter the preferred (Primary) DNS server. For this environment, the CloudFlare public DNS servers are used. These servers have a primary IP of 1.1.1.1 and a secondary IP of 1.0.0.1. You should see a confirmation the server was set.
 
-[Network settings primary DNS in Sconfig](resources/images/4_network_dns_primary.png)
+![Network settings primary DNS in Sconfig](resources/images/4_network_dns_primary.png)
 
 8. Now set the alternate (Secondary) DNS server, you should receive a confirmation the server was set.
 
-[Network settings secondary DNS in Sconfig](resources/images/4_network_dns_secondary.png)
+![Network settings secondary DNS in Sconfig](resources/images/4_network_dns_secondary.png)
 
 9. After you enter the alternate DNS server and it is set, you will be returned to the network settings menu in SConfig. Review the information to verify the adapter is configured correctly.
 
@@ -68,7 +68,7 @@ To begin, we will set the server to a static IP so we do not have to access the 
 
 Once you confirm everything looks correct, enter 4 to return to the main SConfig menu
 
-[Default SConfig](resources/images/default_sconfig.png)
+![Default SConfig](resources/images/default_sconfig.png)
 
 
 
