@@ -14,15 +14,19 @@ The steps provided below are to configure HyperV server core in a workgroup envi
 ## Assumptions
 It is assumed that you have already installed and are running a Windows 10 pro machine and have already installed HyperV server on your server machine.
 
-## Quick Links
+## Configuration Quick Links
 
-[Network Configuration](#Network-Settings)
+[Network](#Network-Settings)
 
-[Remote Management Configuration](#Remote-Management-Settings)
+[Remote Management](#Remote-Management-Settings)
 
-[Remote Desktop Configuration](#Remote-Desktop-Settings)
+[Remote Desktop](#Remote-Desktop-Settings)
 
-[Local Administrator Configuration](#Local-Account-Settings)
+[Local Adccounts](#Local-Account-Settings)
+
+[Server Date and Time](#Date-And-Time-Settings)
+
+[Server Name](#Server-Name-Settings)
 
 ---
 
@@ -113,7 +117,7 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 ![Main menu in Sconfig](resources/images/default_sconfig.png)
 
 
-### Remote Management Settings
+### Remote Desktop Settings
 
 [Back To Top](#HyperVWorkgroup)
 
