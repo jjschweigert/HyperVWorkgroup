@@ -18,7 +18,10 @@ It is assumed that you have already installed and are running a Windows 10 pro m
 
 [Network Configuration](#Network-Settings)
 
+[Remote Management Configuration](#Remote-Management-Settings)
+
 [Remote Desktop Configuration](#Remote-Desktop-Settings)
+
 [Local Administrator Configuration](#Local-Account-Settings)
 
 ---
@@ -36,8 +39,6 @@ Here is the main options menu when you load into HyperV server, this is used for
 ### Network Settings
 
 [Back To Top](#HyperVWorkgroup)
-
-To begin, we will set the server to a static IP so we do not have to access the server to find it's IP each time we want to connect.
 
 **(1)** In the SConfig window press 8 and enter to open the network settings for the server
 
@@ -87,11 +88,9 @@ Once you confirm everything looks correct, enter 4 to return to the main SConfig
 ![Default SConfig](resources/images/default_sconfig.png)
 
 
-### Remote Desktop Settings
+### Remote Management Settings
 
 [Back To Top](#HyperVWorkgroup)
-
-Next, we will configure remote desktop so we can perform the remainder of server configuration from our remote management machine.
 
 **(1)** From the main menu in SConfig, enter 4 to configure remote management
 
@@ -114,6 +113,26 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 ![Main menu in Sconfig](resources/images/default_sconfig.png)
 
 
+### Remote Management Settings
+
+[Back To Top](#HyperVWorkgroup)
+
+**(1)** 
+
 ### Local Account Settings
 
 [Back To Top](#HyperVWorkgroup)
+
+**(1)** 
+
+### Date and Time Settings
+
+[Back To Top](#HyperVWorkgroup)
+
+**(1)** 
+
+### Server Name Settings
+
+[Back To Top](#HyperVWorkgroup)
+
+**(1)** 
