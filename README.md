@@ -28,11 +28,11 @@ Here is the main options menu when you load into HyperV server, this is used for
 
 To begin, we will set the server to a static IP so we do not have to access the server to find it's IP each time we want to connect.
 
-1. In the SConfig window press 8 and enter to open the network settings for the server
+\1. In the SConfig window press 8 and enter to open the network settings for the server
 
-<img align="center">![Network settings selection in SConfig](resources/images/4_network.png)</p>
+![Network settings selection in SConfig](resources/images/4_network.png)
 
-2. You are presented with a list of network adapters including index numbers. Enter the index number of the correct network adapter that is connected to the same network as your remote management machine.<br>
+\2. You are presented with a list of network adapters including index numbers. Enter the index number of the correct network adapter that is connected to the same network as your remote management machine.<br>
 ![Network settings adapter selection in SConfig](resources/images/4_network_adapter.png)
 
 3. Now you are presented with a menu for managing the selected network adapter. Mainly we will set the IP address and DNS servers of the adapter (Options 1 and 2). First, select option 1 to set the nework adapter address.
