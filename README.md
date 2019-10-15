@@ -42,7 +42,7 @@ Here is the main options menu when you load into HyperV server, this is used for
 
 ### Network Settings
 
-[Back To Top](#HyperVWorkgroup)
+[Back To Top](#Background)
 
 **(1)** In the SConfig window press 8 and enter to open the network settings for the server
 
@@ -94,7 +94,7 @@ Once you confirm everything looks correct, enter 4 to return to the main SConfig
 
 ### Remote Management Settings
 
-[Back To Top](#HyperVWorkgroup)
+[Back To Top](#Background)
 
 **(1)** From the main menu in SConfig, enter 4 to configure remote management
 
@@ -119,24 +119,24 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 
 ### Remote Desktop Settings
 
-[Back To Top](#HyperVWorkgroup)
+[Back To Top](#Background)
 
 **(1)** 
 
 ### Local Account Settings
 
-[Back To Top](#HyperVWorkgroup)
+[Back To Top](#Background)
 
 **(1)** 
 
 ### Date and Time Settings
 
-[Back To Top](#HyperVWorkgroup)
+[Back To Top](#Background)
 
 **(1)** 
 
 ### Server Name Settings
 
-[Back To Top](#HyperVWorkgroup)
+[Back To Top](#Background)
 
 **(1)** 
