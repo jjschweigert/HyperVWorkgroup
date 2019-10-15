@@ -41,9 +41,13 @@ To begin, we will set the server to a static IP so we do not have to access the 
 
 4. You are asked to select either DHCP or Static IP, Enter 'S' to choose a static IP
 
-(Network settings address type in SConfig](resources/images/4_network_address_type.png)
+![Network settings address type in SConfig](resources/images/4_network_address_type.png)
 
-5. Now you may enter the desired IP for the server and configure the other mandatory information. The default gateway address is the last configuration for this step.
+5. Now you may enter the desired IP for the server and configure the other mandatory information. The default gateway address is the last configuration for this step. The following values were used in this environment
+
+* IP Address - 192.168.1.100
+* Subnet Mask - 255.255.255.0
+* Default Gateway (Internal IP of home router) - 192.168.1.1
 
 ![Network settings configure adapter address in SConfig](resources/images/4_network_address_config.png)
 
