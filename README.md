@@ -96,9 +96,9 @@ Once you confirm everything looks correct, enter 4 to return to the main SConfig
 
 ### Remote Management Settings
 
-[Back To Top](#Remote-Desktop-Settings)
+[Next](#Remote-Desktop-Settings)
 
-[Next](#Background)
+[Back To Top](#Background)
 
 **(1)** From the main menu in SConfig, enter 4 to configure remote management
 
