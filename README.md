@@ -14,6 +14,13 @@ The steps provided below are to configure HyperV server core in a workgroup envi
 ## Assumptions
 It is assumed that you have already installed and are running a Windows 10 pro machine and have already installed HyperV server on your server machine.
 
+## Quick Links
+
+[Network Configuration](#Network-Settings)
+[Remote Desktop Configuration](#Remote-Desktop-Settings)
+
+---
+
 # Server Configuration
 
 ## Server Configuration (SConfig) Window
@@ -76,4 +83,6 @@ Once you confirm everything looks correct, enter 4 to return to the main SConfig
 ![Default SConfig](resources/images/default_sconfig.png)
 
 
+### Remote Desktop Settings
 
+asdfasdfasdf
