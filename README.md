@@ -17,6 +17,7 @@ It is assumed that you have already installed and are running a Windows 10 pro m
 ## Quick Links
 
 [Network Configuration](#Network-Settings)
+
 [Remote Desktop Configuration](#Remote-Desktop-Settings)
 
 ---
@@ -32,6 +33,8 @@ Here is the main options menu when you load into HyperV server, this is used for
 ## Configuration Steps
 
 ### Network Settings
+
+[Back To Top](#HyperVWorkgroup)
 
 To begin, we will set the server to a static IP so we do not have to access the server to find it's IP each time we want to connect.
 
@@ -85,4 +88,6 @@ Once you confirm everything looks correct, enter 4 to return to the main SConfig
 
 ### Remote Desktop Settings
 
-asdfasdfasdf
+[Back To Top](#HyperVWorkgroup)
+
+
