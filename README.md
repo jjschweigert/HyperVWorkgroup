@@ -32,13 +32,16 @@ To begin, we will set the server to a static IP so we do not have to access the 
 
 ![Network settings selection in SConfig](resources/images/4_network.png)
 
-**(2)** You are presented with a list of network adapters including index numbers. Enter the index number of the correct network adapter that is connected to the same network as your remote management machine.<br>
+**(2)** You are presented with a list of network adapters including index numbers. Enter the index number of the correct network adapter that is connected to the same network as your remote management machine.
+
 ![Network settings adapter selection in SConfig](resources/images/4_network_adapter.png)
 
 **(3)** Now you are presented with a menu for managing the selected network adapter. Mainly we will set the IP address and DNS servers of the adapter (Options 1 and 2). First, select option 1 to set the nework adapter address.
+
 ![Network settings set network adapter address in SConfig](resources/images/4_network_address.png)
 
 **(4)** You are asked to select either DHCP or Static IP, Enter 'S' to choose a static IP
+
 ![Network settings address type in SConfig](resources/images/4_network_address_type.png)
 
 **(5)** Now you may enter the desired IP for the server and configure the other mandatory information. The default gateway address is the last configuration for this step. The following values were used in this environment
@@ -46,15 +49,19 @@ To begin, we will set the server to a static IP so we do not have to access the 
 * IP Address - 192.168.1.100
 * Subnet Mask - 255.255.255.0
 * Default Gateway (Internal IP of home router) - 192.168.1.1
+
 ![Network settings configure adapter address in SConfig](resources/images/4_network_address_config.png)
 
 **(6)** After the IP address is changed you should see the menu presented in step 2. To configure the DNS servers of this adapter enter 2 to set the DNS servers.
+
 ![Network settings configure DNS in Sconfig](resources/images/4_network_dns.png)
 
 **(7)** Now you will be asked to enter the preferred (Primary) DNS server. For this environment, the CloudFlare public DNS servers are used. These servers have a primary IP of 1.1.1.1 and a secondary IP of 1.0.0.1. You should see a confirmation the server was set.
+
 ![Network settings primary DNS in Sconfig](resources/images/4_network_dns_primary.png)
 
 **(8)** Now set the alternate (Secondary) DNS server, you should receive a confirmation the server was set.
+
 ![Network settings secondary DNS in Sconfig](resources/images/4_network_dns_secondary.png)
 
 **(9)** After you enter the alternate DNS server and it is set, you will be returned to the network settings menu in SConfig. Review the information to verify the adapter is configured correctly.
@@ -65,6 +72,7 @@ To begin, we will set the server to a static IP so we do not have to access the 
 * Preferred and alternate DNS servers should be set to the IP's configured in steps 7 and 8
 
 Once you confirm everything looks correct, enter 4 to return to the main SConfig menu
+
 ![Default SConfig](resources/images/default_sconfig.png)
 
 
