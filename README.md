@@ -19,6 +19,7 @@ It is assumed that you have already installed and are running a Windows 10 pro m
 [Network Configuration](#Network-Settings)
 
 [Remote Desktop Configuration](#Remote-Desktop-Settings)
+[Local Administrator Configuration](#Local-Account-Settings)
 
 ---
 
@@ -90,4 +91,29 @@ Once you confirm everything looks correct, enter 4 to return to the main SConfig
 
 [Back To Top](#HyperVWorkgroup)
 
+Next, we will configure remote desktop so we can perform the remainder of server configuration from our remote management machine.
 
+**(1)** From the main menu in SConfig, enter 4 to configure remote management
+
+![Select remote management in Sconfig](resources/images/5_remote_management.png)
+
+**(2)** From the remote management window enter option 1 to verify that remote management is enabled. You should get a confirmation that it is enabled.
+
+![Enable remote management in Sconfig](resources/images/5_remote_management_enable_complete.png)
+
+**(3)** Now enter 3 from the remote management menu to configure the server to respond to ping's. Once presented weith the dialog box, select Yes to allow remote machines to ping this server.
+
+![Allow pinging this server in Sconfig](resources/images/5_remote_management_ping_enable.png)
+
+You will get a confirmation that pinging has been allowed
+
+![Allow pinging this server confirmation in Sconfig](resources/images/5_remote_management_ping_complete.png)
+
+On the remote management menu enter 4 to return to the main menu in SConfig
+
+![Main menu in Sconfig](resources/images/default_sconfig.png)
+
+
+### Local Account Settings
+
+[Back To Top](#HyperVWorkgroup)
