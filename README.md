@@ -19,12 +19,28 @@ The steps provided below are to configure HyperV server core in a workgroup envi
 
 # Prerequisites
 
-## Prerequisite Steps
-
 ### 1. [HyperV Server Installer](#Create-HyperV-Server-USB-Installer)
 ### 2. [HyperV Server Installation](#Install-HyperV-Server)
-### 3. [Windows 10 Pro Installer](#Create-Windows-10-USB-Installer)
-### 4. [Windows 10 Pro Installation](#Install-Windows-10)
+### 3. [Windows 10 Pro Installer](#Create-Windows-10-Pro-USB-Installer)
+### 4. [Windows 10 Pro Installation](#Install-Windows-10-Pro)
+
+## Prerequisite Steps
+
+### Create HyperV Server USB Installer
+
+<br>
+
+### Install HyperV Server
+
+<br>
+
+### Create Windows 10 Pro USB Installer
+
+<br>
+
+### Install Windows 10 Pro
+
+<br>
 
 ## 
 
@@ -54,6 +70,7 @@ The steps provided below are to configure HyperV server core in a workgroup envi
 ### 5. [Server Date and Time](#Date-And-Time-Settings)
 
 ### 6. [Server Name](#Server-Name-Settings)
+
 # 
 
 ## Server Configuration (SConfig) Window
