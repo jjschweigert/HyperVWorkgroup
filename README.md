@@ -366,6 +366,8 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 
 **(1)** In the SConfig window press 8 and enter to open the network settings for the server
 
-![Network settings selection in SConfig](resources/images/4_network.png)
+```Powershell
+Enable-PSRemoting
+```
 
 <br>
