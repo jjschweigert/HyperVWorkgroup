@@ -24,6 +24,8 @@ The steps provided below are to configure HyperV server core in a workgroup envi
 ### 3. [Windows 10 Pro Installer](#Create-Windows-10-Pro-USB-Installer)
 ### 4. [Windows 10 Pro Installation](#Install-Windows-10-Pro)
 
+<br>
+
 ## Prerequisite Steps
 
 ### Create HyperV Server USB Installer
@@ -71,7 +73,7 @@ The steps provided below are to configure HyperV server core in a workgroup envi
 
 ### 6. [Server Name](#Server-Name-Settings)
 
-# 
+<br>
 
 ## Server Configuration (SConfig) Window
 
@@ -233,6 +235,8 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 **(1)**
 
 ![Main menu in Sconfig](resources/images/default_sconfig.png)
+
+#
 
 <br>
 
