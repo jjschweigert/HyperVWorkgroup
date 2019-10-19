@@ -43,7 +43,7 @@ Here is the main options menu when you load into HyperV server, this is used for
 
 [Next](#Remote-Management-Settings)
 
-[Back To Top](#Background)
+[Back To Top](#Server-Configuration)
 
 **(1)** In the SConfig window press 8 and enter to open the network settings for the server
 
@@ -97,7 +97,7 @@ Once you confirm everything looks correct, enter 4 to return to the main SConfig
 
 [Next](#Remote-Desktop-Settings)
 
-[Back To Top](#Background)
+[Back To Top](#Server-Configuration)
 
 **(1)** From the main menu in SConfig, enter 4 to configure remote management
 
@@ -124,7 +124,7 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 
 [Next](#Local-Account-Settings)
 
-[Back To Top](#Background)
+[Back To Top](#Server-Configuration)
 
 **(1)** 
 
@@ -135,7 +135,7 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 
 [Next](#Date-and-Time-Settings)
 
-[Back To Top](#Background)
+[Back To Top](#Server-Configuration)
 
 **(1)** 
 
@@ -146,7 +146,7 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 
 [Next](#Server-Name-Settings)
 
-[Back To Top](#Background)
+[Back To Top](#Server-Configuration)
 
 **(1)** 
 
@@ -155,9 +155,9 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 
 ### Server Name Settings
 
-[Next](#Background)
+[Next](#Server-Configuration)
 
-[Back To Top](#Background)
+[Back To Top](#Server-Configuration)
 
 **(1)**
 
