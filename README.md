@@ -39,7 +39,7 @@ Here is the main options menu when you load into HyperV server, this is used for
 
 ![Default SConfig](resources/images/default_sconfig.png)
 
-## Configuration Steps
+## Server Configuration Steps
 
 ### Network Settings
 
@@ -181,3 +181,29 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 **(1)**
 
 ![Main menu in Sconfig](resources/images/default_sconfig.png)
+
+<br>
+
+# Client Configuration
+
+### 1. [Enable PSRemoting](#PSRemoting)
+
+<br>
+
+## Client Configuration Steps
+
+The following configurations on the client side may be done using Powershell.
+
+### PSRemoting
+
+[Next](#Client-Configuration)
+
+[Back To Top](#Client-Configuration)
+
+<br>
+
+**(1)** In the SConfig window press 8 and enter to open the network settings for the server
+
+![Network settings selection in SConfig](resources/images/4_network.png)
+
+<br>
