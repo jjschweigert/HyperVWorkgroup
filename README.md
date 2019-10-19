@@ -156,7 +156,7 @@ Due to the range of motherboards, these steps are as generic as possible
 
 **(2)** If your desktop is already powered on you should reboot or if it is powered off boot the desktop. During the boot process you should see a message stating which key you should press to show the boot menu. Press this key during the boot process to show the boot menu which lists bootable devices connected to your motherboard. For example, in the image below we see we should press F11 to show the boot menu.
 
-![BIOS Boot Menu Prompt](resources/images/prereq/.png)
+![BIOS Boot Menu Prompt](resources/images/prereq/bios_boot_menu.png)
 
 Once you see the boot menu, boot from the USB drive containing your Windows 10 Pro installer.
 
