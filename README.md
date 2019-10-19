@@ -17,6 +17,18 @@ The steps provided below are to configure Hyper-V server core in a workgroup env
 
 # 
 
+<br>
+
+## Quick Links
+
+#### [Prereqs](#Prerequisites)
+#### [Server Config](#Server-Configuration)
+#### [Client Config](#Client-Configuration)
+
+## 
+
+<br>
+
 # Prerequisites
 
 ### 1. [Create Hyper-V Server Installer](#Create-Hyper-V-Server-USB-Installer)
@@ -153,15 +165,6 @@ Once you see the boot menu, boot from the USB drive containing your Windows 10 P
 <br>
 
 # 
-
-<br>
-
-## Quick Links
-
-#### [Server Config](#Server-Configuration)
-#### [Client Config](#Client-Configuration)
-
-## 
 
 <br>
 
