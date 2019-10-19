@@ -52,7 +52,9 @@ Here is the main options menu when you load into HyperV server, this is used for
 
 [Next](#Remote-Management-Settings)
 
-[Back To Top](#Server-Configuration)
+[Back To Server Configuration Summary](#Server-Configuration)
+
+[Back To Top](#Background)
 
 <br>
 
@@ -109,7 +111,9 @@ Once you confirm everything looks correct, enter 4 to return to the main SConfig
 
 [Next](#Remote-Desktop-Settings)
 
-[Back To Top](#Server-Configuration)
+[Back To Server Configuration Summary](#Server-Configuration)
+
+[Back To Top](#Background)
 
 <br>
 
@@ -139,7 +143,9 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 
 [Next](#Local-Account-Settings)
 
-[Back To Top](#Server-Configuration)
+[Back To Server Configuration Summary](#Server-Configuration)
+
+[Back To Top](#Background)
 
 <br>
 
@@ -153,7 +159,9 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 
 [Next](#Date-and-Time-Settings)
 
-[Back To Top](#Server-Configuration)
+[Back To Server Configuration Summary](#Server-Configuration)
+
+[Back To Top](#Background)
 
 <br>
 
@@ -167,7 +175,9 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 
 [Next](#Server-Name-Settings)
 
-[Back To Top](#Server-Configuration)
+[Back To Server Configuration Summary](#Server-Configuration)
+
+[Back To Top](#Background)
 
 <br>
 
@@ -181,7 +191,9 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 
 [Next](#Server-Configuration)
 
-[Back To Top](#Server-Configuration)
+[Back To Server Configuration Summary](#Server-Configuration)
+
+[Back To Top](#Background)
 
 <br>
 
@@ -209,7 +221,9 @@ The following configurations on the client side may be done using Powershell.
 
 [Next](#Client-Configuration)
 
-[Back To Top](#Client-Configuration)
+[Back To Client Configuration Summary](#Client-Configuration)
+
+[Back To Top](#Background)
 
 <br>
 
