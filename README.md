@@ -54,7 +54,7 @@ The steps provided below are to configure Hyper-V server core in a workgroup env
 
 **(3)** With the USB drive you would like to use for the Hyper-V Server installtion connected, run Rufus. Notice how Rufus detects your USB drive, if the incorrect drive is selected please select it using the Device drop down.
 
-![Rufus UI](resources/images/.png)
+![Rufus UI](resources/images/prereq/rufus_ui.png)
 
 **(4)** Under **Boot selection** verify **Disk or ISO image** is selected. Then click the "Select" button to open a file browser. Select the Hyper-V Server ISO downloaded in step 2 and click Open. Notice that the text for **Boot selection** now shows the ISO filename.
 
@@ -68,15 +68,15 @@ The steps provided below are to configure Hyper-V server core in a workgroup env
 
 **(9)** Review the image below to compare with your current settings. Once you confirm everything looks good press **Start** to begin formatting the USB drive and creating the Hyper-V server installer. Notice that, prior to pressing Start, the progress bar with the text READY is not filled.
 
-![Rufus Completely Configured](resources/images/.png)
+![Rufus Completely Configured](resources/images/prereq/rufus_config.png)
 
 **(10)** Rufus may prompt you that all the data on your USB drive will be destroyed. Press **OK** on the dialog box to continue with the process. You should see a progress bar under **Status**, monitor this to see when the process is complete.
 
-![Rufus Overwite Prompt](resources/images/.png)
+![Rufus Overwite Prompt](resources/images/prereq/rufus_warning.png)
 
 **(11)** Once the process completes you should see the progress bar, with the text READY, is fully filled under **Status**, see image below. This means your installer was successfully created.
 
-![Rufus UI For Completed Process](resources/images/.png)
+![Rufus UI For Completed Process](resources/images/prereq/rufus_complete.png)
 
 <br>
 
@@ -94,7 +94,7 @@ Due to the range of motherboards, these steps are as generic as possible
 
 **(2)** If your server is already powered on you should reboot or if it is powered off boot the server. During the boot process you should see a message stating which key you should press to show the boot menu. Press this key during the boot process to show the boot menu which lists bootable devices connected to your motherboard. For example, in the image below we see we should press F11 to show the boot menu.
 
-![BIOS Boot Menu Prompt](resources/images/.png)
+![BIOS Boot Menu Prompt](resources/images/prereq/bios_boot_menu.png)
 
 Once you see the boot menu, boot from the USB drive containing your Hyper-V Server installer.
 
@@ -118,25 +118,25 @@ If you already have a Windows 10 Pro ISO, you may follow the steps used to [crea
 
 **(3)** Once the tool has loaded Accept the terms and conditions then make sure **Create installation media** is selected before clicking Next.
 
-![Win 10 tool options](resources/images/.png)
+![Win 10 tool options](resources/images/prereq/win_10_install_tool_setup.png)
 
 **(4)** If the recommended options are correct click Next, otherwise make sure you select the correct settings such as **Architecture**.
 
-![Win 10 tool recommended installation settings](resources/images/.png)
+![Win 10 tool recommended installation settings](resources/images/prereq/win_10_install_config.png)
 
 **(5)** Next you will be asked which type of media you would like to use. At this point you could select **ISO file** if you would like to generate an ISO file then you could follow the steps to [create the Hyper-V Server installer](#Create-Hyper-V-Server-USB-Installer). Or you can select **USB flash drive** to continue creating the Windows 10 Pro installer using the currently connected flash drive.
 
-![Win 10 tool meda type selection](resources/images/.png)
+![Win 10 tool meda type selection](resources/images/prereq/win_10_install_media.png)
 
 **(6)** Assuming you chose **USB flash drive** in the previous step, verify the correct USB drive is selected in the **Removable drives** tree as shown in the image below.
 
-![Win 10 tool usb selection](resources/images/.png)
+![Win 10 tool usb selection](resources/images/prereq/win_install_drives.png)
 
 **(7)** After pressing Next, the tool will begin to download a copy of Windows 10 and create the USB installer. Please note all data on the USB drive will be overwritten.
 
 **(8)** Once complete you should see a message stating **Your USB flash drive is ready** as shown in the image below.
 
-![Win 10 tool usb selection](resources/images/.png)
+![Win 10 tool usb selection](resources/images/prereq/win_install_complete.png)
 
 **(9)** Press Finish so the tool can cleanup and close. Your drive is now ready to install Windows 10 Pro.
 
@@ -156,7 +156,7 @@ Due to the range of motherboards, these steps are as generic as possible
 
 **(2)** If your desktop is already powered on you should reboot or if it is powered off boot the desktop. During the boot process you should see a message stating which key you should press to show the boot menu. Press this key during the boot process to show the boot menu which lists bootable devices connected to your motherboard. For example, in the image below we see we should press F11 to show the boot menu.
 
-![BIOS Boot Menu Prompt](resources/images/.png)
+![BIOS Boot Menu Prompt](resources/images/prereq/.png)
 
 Once you see the boot menu, boot from the USB drive containing your Windows 10 Pro installer.
 
