@@ -364,10 +364,16 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 
 <br>
 
-**(1)** In the SConfig window press 8 and enter to open the network settings for the server
+**(1)** Open a powershell session as administrator. If you already have a powershell session open you can open a new powershell session as administrator using the code below.
 
 ```Powershell
-Enable-PSRemoting
+Start-Process powershell -Verb runAs
+```
+
+If you do not need the current powershell session any longer you may also close the current session after opening the new session using the code below.
+
+```Powershell
+Start-Process powershell -Verb runAs; exit
 ```
 
 <br>
