@@ -271,7 +271,7 @@ Once you confirm everything looks correct, enter 4 to return to the main SConfig
 
 **(3)** Now enter 3 from the remote management menu to configure the server to respond to ping's. Once presented weith the dialog box, select Yes to allow remote machines to ping this server.
 
-![Allow pinging this server in Sconfig](resources/images/5_remote_management_ping_enable.png)
+![Allow pinging this server in Sconfig](resources/images/server/5_remote_management_ping_enable.png)
 
 You will get a confirmation that pinging has been allowed
 
@@ -343,7 +343,7 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 
 **(1)**
 
-![Main menu in Sconfig](resources/images/dserver/efault_sconfig.png)
+![Main menu in Sconfig](resources/images/server/default_sconfig.png)
 
 #
 
