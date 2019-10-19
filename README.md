@@ -44,8 +44,6 @@ The steps provided below are to configure HyperV server core in a workgroup envi
 
 <br>
 
-## 
-
 # 
 
 <br>
