@@ -14,9 +14,10 @@ The steps provided below are to configure HyperV server core in a workgroup envi
 ## Assumptions
 It is assumed that you have already installed and are running a Windows 10 pro machine and have already installed HyperV server on your server machine.
 
----
+--
 
 <br>
+
 # Server Configuration
 
 ### 1. [Network](#Network-Settings)
