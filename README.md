@@ -244,15 +244,9 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 
 ### 1. [Enable PSRemoting](#PSRemoting)
 
-# 
-
 <br>
 
 ## Client Configuration Steps
-
-The following configurations on the client side may be done using Powershell.
-
-# 
 
 ### PSRemoting
 
