@@ -96,12 +96,15 @@ Once you confirm everything looks correct, enter 4 to return to the main SConfig
 
 ![Default SConfig](resources/images/default_sconfig.png)
 
+<br>
 
 ### Remote Management Settings
 
 [Next](#Remote-Desktop-Settings)
 
 [Back To Top](#Server-Configuration)
+
+<br>
 
 **(1)** From the main menu in SConfig, enter 4 to configure remote management
 
@@ -123,6 +126,7 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 
 ![Main menu in Sconfig](resources/images/default_sconfig.png)
 
+<br>
 
 ### Remote Desktop Settings
 
@@ -130,10 +134,13 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 
 [Back To Top](#Server-Configuration)
 
+<br>
+
 **(1)** 
 
 ![Main menu in Sconfig](resources/images/default_sconfig.png)
 
+<br>
 
 ### Local Account Settings
 
@@ -141,10 +148,13 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 
 [Back To Top](#Server-Configuration)
 
+<br>
+
 **(1)** 
 
 ![Main menu in Sconfig](resources/images/default_sconfig.png)
 
+<br>
 
 ### Date and Time Settings
 
@@ -152,16 +162,21 @@ On the remote management menu enter 4 to return to the main menu in SConfig
 
 [Back To Top](#Server-Configuration)
 
+<br>
+
 **(1)** 
 
 ![Main menu in Sconfig](resources/images/default_sconfig.png)
 
+<br>
 
 ### Server Name Settings
 
 [Next](#Server-Configuration)
 
 [Back To Top](#Server-Configuration)
+
+<br>
 
 **(1)**
 
