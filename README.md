@@ -20,8 +20,8 @@ It is assumed that you have already installed and are running a Windows 10 pro m
 
 ## Quick Links
 
-#### [Server Configuration](#Server-Configuration)
-#### [Client Configuration](#Client-Configuration)
+#### [Server Config](#Server-Configuration)
+#### [Client Config](#Client-Configuration)
 
 <br>
 
