@@ -30,6 +30,12 @@ The steps provided below are to configure Hyper-V server core in a workgroup env
 
 ### Create Hyper-V Server USB Installer
 
+[Back To Prerequisites Summary](#Prerequisites)
+
+[Back To Top](#Background)
+
+<br>
+
 **(1)** Download the HyperV Server ISO from the Microsoft evaluation center. In this environment we will use the 2019 edition of Hyper-V Server which can be downloaded [Here](https://www.microsoft.com/en-us/evalcenter/evaluate-hyper-v-server-2019).
 
 **(2)** Download [Rufus](https://rufus.ie/), which is the tool we will use to create the USB installer.
@@ -64,6 +70,12 @@ The steps provided below are to configure Hyper-V server core in a workgroup env
 
 ### Install Hyper-V Server
 
+[Back To Prerequisites Summary](#Prerequisites)
+
+[Back To Top](#Background)
+
+<br>
+
 Due to the range of motherboards, these steps are as generic as possible
 
 **(1)** Verify your USB drive containing your Hyper-V Server installer is connected to your server.
@@ -79,6 +91,12 @@ Once you see the boot menu, boot from the USB drive containing your Hyper-V Serv
 <br>
 
 ### Create Windows 10 Pro USB Installer
+
+[Back To Prerequisites Summary](#Prerequisites)
+
+[Back To Top](#Background)
+
+<br>
 
 If you already have a Windows 10 Pro ISO, you may follow the steps used to [create the Hyper-V Server installer](#Create-Hyper-V-Server-USB-Installer).
 
@@ -113,6 +131,12 @@ If you already have a Windows 10 Pro ISO, you may follow the steps used to [crea
 <br>
 
 ### Install Windows 10 Pro
+
+[Back To Prerequisites Summary](#Prerequisites)
+
+[Back To Top](#Background)
+
+<br>
 
 Due to the range of motherboards, these steps are as generic as possible
 
@@ -159,7 +183,7 @@ Once you see the boot menu, boot from the USB drive containing your Windows 10 P
 
 ## Server Configuration (SConfig) Window
 
-Here is the main options menu when you load into HyperV server, this is used for quick configuration of the server.
+After booting into Hyper-V Server you should be shown a command prompt window with a menu. This is the primary menu for configuring some general server settings.
 
 ![Default SConfig](resources/images/default_sconfig.png)
 
