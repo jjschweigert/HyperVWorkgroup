@@ -48,6 +48,8 @@ Here is the main options menu when you load into HyperV server, this is used for
 
 [Back To Top](#Server-Configuration)
 
+
+
 **(1)** In the SConfig window press 8 and enter to open the network settings for the server
 
 ![Network settings selection in SConfig](resources/images/4_network.png)
