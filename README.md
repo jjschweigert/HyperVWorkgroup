@@ -1,9 +1,11 @@
 # HyperVWorkgroup
 HyperV Server core 2019 configuration in workgroup environment
+
 ## 
 
 # Background
 The steps provided below are to configure HyperV server core in a workgroup environment which has some unique configurations that need to be done which are not involved in a domain environment. In this environment we will use a Windows 10 Pro machine for remote management of the HyperV server.
+
 ## 
 
 ## Needed Material
@@ -12,16 +14,28 @@ The steps provided below are to configure HyperV server core in a workgroup envi
 * Windows 10 Pro ISO or flash drive installer which can be created using the [Microsoft Windows 10 Installation Tool](https://www.microsoft.com/en-us/software-download/windows10) or using [Rufus](https://rufus.ie/) if you already have an ISO.
 * A desktop for remote management of the HyperV server
 * A server to run HyperV server
+
 ## 
 
-## Assumptions
-It is assumed that you have already installed and are running a Windows 10 pro machine and have already installed HyperV server on your server machine.
+## Prerequisites
+
+### Prerequisite Steps
+
+#### 1. [HyperV Server Installer](#Create-HyperV-Server-USB-Installer)
+#### 2. [HyperV Server Installation](#Install-HyperV-Server)
+#### 3. [Windows 10 Pro Installer](#Create-Windows-10-USB-Installer)
+#### 4. [Windows 10 Pro Installation](#Install-Windows-10)
+
+### 
+
 ## 
 
 ## Quick Links
 
 #### [Server Config](#Server-Configuration)
 #### [Client Config](#Client-Configuration)
+
+## 
 
 <br>
 
