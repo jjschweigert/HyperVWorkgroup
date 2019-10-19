@@ -32,6 +32,19 @@ It is assumed that you have already installed and are running a Windows 10 pro m
 
 # Server Configuration
 
+### 1. [Network](#Network-Settings)
+
+### 2. [Remote Management](#Remote-Management-Settings)
+
+### 3. [Remote Desktop](#Remote-Desktop-Settings)
+
+### 4. [Local Adccounts](#Local-Account-Settings)
+
+### 5. [Server Date and Time](#Date-And-Time-Settings)
+
+### 6. [Server Name](#Server-Name-Settings)
+
+
 ## Server Configuration (SConfig) Window
 
 Here is the main options menu when you load into HyperV server, this is used for quick configuration of the server.
