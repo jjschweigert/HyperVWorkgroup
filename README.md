@@ -379,4 +379,6 @@ If you do not need the current powershell session any longer you may also close 
 Start-Process powershell -Verb runAs; exit
 ```
 
+![PS](resources/images/client/powershell.gif)
+
 <br>
