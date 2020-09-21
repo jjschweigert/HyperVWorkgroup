@@ -1,9 +1,20 @@
 ﻿# Self elevate if not running as admin
-if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) { Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs; exit }
+if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) 
+{ 
+    Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs;
+    exit 
+}
 
+$remoteHostName = Read-Host -Prompt "Enter the remote hosts FQDN"
 
-#Add-Content -Path C:\Windows\System32\drivers\etc\hosts -Value "`n172.30.32.151`tHVTEST01"
+# If you want to add the host to the hosts file, you can use the code below
+# $remoteHostIp = Read-Host -Prompt "Enter the IP of the remote host to add to the local hosts file"
+#Add-Content -Path C:\Windows\System32\drivers\etc\hosts -Value "`n$remoteHostIp`t$remoteHostName"
 
+$remoteHostUsername = Read-Host -Prompt "Enter the username for $remoteHostName"
+$remoteHostPassword = Read-Host -Prompt "Enter the password for $remoteHostUsername on $remoteHostName"
+
+$remoteCredentials = New-Object System.Management.Automation.PSCredential("$remoteHostName\$remoteHostUsername", $(ConvertTo-SecureString $remoteHostPassword -AsPlainText -Force))
 
 
 # -------------------------------------------------------------------------------
@@ -21,7 +32,7 @@ Write-Host "Available network adapters`n--------------------------`n"
 $NetworkAdapters | Format-Table -AutoSize
 Write-Host ""
 
-if($($NetworkAdapters | Measure).Count -eq 1)
+if($($NetworkAdapters | Measure-Object).Count -eq 1)
 {
     $NetworkAdapter = Read-Host -Prompt "Type the name of one of the network adapters shown above. Leave blank for $($NetworkAdapters[0].Name)"
 
@@ -61,8 +72,7 @@ Write-Host "`nConfiguring WinRM...`n"
 Set-WSManQuickConfig -SkipNetworkProfileCheck -Force
 
 Start-Service -Name WinRM
-$HyperVHostname = Read-Host -Prompt "Enter the hyper v server hostname as added to C:\Windows\System32\Drivers\etc\hosts"
-Set-Item WSMan:\localhost\Client\TrustedHosts -Value $HyperVHostname.ToString() -Force
+Set-Item WSMan:\localhost\Client\TrustedHosts -Value $remoteHostName.ToString() -Force
 $WinRmTrustedHosts = Get-Item WSMan:\localhost\Client\TrustedHosts
 Stop-Service -Name winrm -NoWait
 
@@ -71,7 +81,7 @@ While($(Get-Service -Name WinRM).Status -eq "Running")
     Start-Sleep -Seconds 1
 }
 
-Write-Host "`nSuccessfully added $HyperVHostname to the WinRM trusted hosts.`n"
+Write-Host "`nSuccessfully added $remoteHostName to the WinRM trusted hosts.`n"
 $WinRmTrustedHosts | Format-Table -AutoSize
 
 
@@ -102,7 +112,7 @@ Start-Service -Name WinRM
 
 Enable-WSManCredSSP -Role Client -DelegateComputer locahost -Force
 Enable-WSManCredSSP -Role Client -DelegateComputer $env:COMPUTERNAME -Force
-Enable-WSManCredSSP -Role Client -DelegateComputer $HyperVHostname -Force
+Enable-WSManCredSSP -Role Client -DelegateComputer $remoteHostName -Force
 Set-Item -Path "wsman:\localhost\service\auth\credSSP" -Value $True -Force
 
 Stop-Service -Name WinRM -NoWait
@@ -111,8 +121,6 @@ While($(Get-Service -Name WinRM).Status -eq "Running")
 {
     Start-Sleep -Seconds 1
 }
-
-Write-Host "`nSuccessfully configured this computer as client, test connection to server from hyper v management UI"
 
 
 
@@ -124,7 +132,7 @@ Write-Host "`nSuccessfully configured this computer as client, test connection t
 # --------------------------------------------------
 
 New-Item -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\CredentialsDelegation -Name AllowFreshCredentialsWhenNTLMOnly -Force
-New-ItemProperty -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\CredentialsDelegation\AllowFreshCredentialsWhenNTLMOnly -Name 1 -Value "WSMAN/$HyperVHostname" -PropertyType String # Could also set -Value to *
+New-ItemProperty -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\CredentialsDelegation\AllowFreshCredentialsWhenNTLMOnly -Name 1 -Value "WSMAN/$remoteHostName" -PropertyType String # Could also set -Value to *
 
 
 
@@ -134,4 +142,4 @@ New-ItemProperty -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\CredentialsDele
 # Test remote PS capability by invoking a command on the remote server
 # --------------------------------------------------------------------
 
-Invoke-Command {whoami} -ComputerName $HyperVHostname -Credential "$HyperVHostname\josh" -
+Invoke-Command {whoami} -ComputerName $remoteHostName -Credential $remoteCredentials
